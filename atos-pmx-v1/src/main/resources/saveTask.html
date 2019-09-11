@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<link
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+
+<body>
+	<div class="container">
+		<div id="loginbox" style="margin-top: 50px; color: #00008b;"
+			class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+			<div class="panel panel-info">
+				<div class="panel-title">
+					<h3>
+						<b>Add Task</b>
+					</h3>
+				</div>
+			</div>
+			<div style="padding-top: 30px" class="panel-body">
+				<form>
+					<div class="form-group">
+						<!-- Full Name -->
+						<label for="full_name_id" class="control-label">Task Name</label>
+						<input type="text" class="form-control" id="full_name_id"
+							name="full_name" placeholder="">
+					</div>
+
+					<div class="form-group">
+						<!-- Street 1 -->
+						<label for="street1_id" class="control-label">Start Date</label> <input
+							type="text" class="form-control" id="street1_id" name="street1"
+							placeholder="">
+					</div>
+
+					<div class="form-group">
+						<!-- Street 2 -->
+						<label for="street2_id" class="control-label">Finish
+							Date(optional)</label> <input type="text" class="form-control"
+							id="street2_id" name="street2" placeholder="">
+					</div>
+
+					<div class="form-group">
+						<!-- City-->
+						<label for="city_id" class="control-label">Duartion(optional)</label>
+						<input type="text" class="form-control" id="city_id" name="city"
+							placeholder="">
+					</div>
+
+					<div class="form-group">
+						<!-- State Button -->
+						<label for="state_id" class="control-label">Resource</label> <select
+							class="form-control" id="state_id">
+							<option value="AL">R1</option>
+							<option value="AK">R2</option>
+							<option value="AZ">R3</option>
+							<option value="AR">R4</option>
+							<option value="CA">R5</option>
+							<option value="CO">R6</option>
+							<option value="CT">R7</option>
+							<option value="DE">R8</option>
+							<option value="DC">R9</option>
+							<option value="FL">R10</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<label for="zip_id" class="control-label">Percentage
+							Complete</label> <input type="text" class="form-control" id="zip_id"
+							name="zip" placeholder=" ...%">
+					</div>
+					<div class="form-group">
+						<!-- State Button -->
+						<label for="state_id" class="control-label">Dependencies</label> <select
+							class="form-control" id="state_id">
+							<option value="AL">Task1</option>
+							<option value="AK">Task2</option>
+							<option value="AZ">Task3</option>
+							<option value="AR">Task4</option>
+							<option value="CA">Task5</option>
+							<option value="CO">Task6</option>
+							<option value="CT">Task7</option>
+							<option value="DE">Task8</option>
+							<option value="DC">Task9</option>
+							<option value="FL">Task10</option>
+						</select>
+					</div>
+
+					<div class="form-group">
+						<!-- Submit Button -->
+						<button type="submit" class="btn btn-primary"
+							style="width: 35%; background-color: #00008b;">
+							<i>Save</i>
+						</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
